@@ -1,0 +1,72 @@
+
+a{
+  color: black;
+  font-weight: bold;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+body{
+  background-color: #E8F9E9;
+}
+
+h3{
+  padding-left: 17px;
+}
+
+p{
+  padding-left: 17px;
+}
+
+hr{
+  width: 263px;
+  border-style: none;
+  border-top: solid black 3px;
+}
+
+/******************************CLASS SELECTORS************************/
+
+.card_div{
+  background-color: #B9FFFC;
+  width: 300px;
+  border-style: solid;
+  border-color: black;
+  position: relative;
+  margin: 150px auto;
+  padding-bottom: 15px;
+  border-radius: 20px;
+  box-shadow: 0 40px 100px 15px red, 0 30px 40px 60px #B9FFFC;
+}
+
+.eth_number_p{
+  display: inline;
+  position: relative;
+  bottom: 10px;
+  padding-left: 0;
+  font-weight: bold;
+}
+
+.days_left{
+  display: inline;
+  position: relative;
+  bottom: 10px;
+  left: 64px;
+  padding-left: 0;
+  font-weight: bold;
+}
+
+.img_mod{
+  width: 260px;
+  margin: 20px 20px auto 20px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: black;
+}
+
+.pos_clock{
+  position: relative;
+  left: 60px;
+  bottom: 3px;
+}
